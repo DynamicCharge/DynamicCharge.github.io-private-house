@@ -1191,7 +1191,8 @@ table {
     width: 100%; }
 
 .warranty {
-  background-image: url(../../assets/img/warranty-bg..jpg); }
+  background-image: url(../../assets/img/warranty-bg..jpg);
+  background: #141F33; }
   .warranty .warranty__wrapper {
     display: grid;
     grid-template-columns: 395px auto; }
