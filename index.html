@@ -102,8 +102,10 @@
                                     <li class="title__top__wrapper__right__form__list__item">Расчёт сметы на работы и материалы</li>
                                     <li class="title__top__wrapper__right__form__list__item">Выезд на объект</li>
                                 </ul>
-                                <input type="text" placeholder="Ваш номер телефона" class="title__top__wrapper__right__form__list__item__input">
-                                <button class="title__top__wrapper__right__form__submit btn">Отправить</button>
+                                <label for="" class="title__top__wrapper__right__form__list__item__input-wrap">
+                                    <input type="text" name="phone" data-required placeholder="Ваш номер телефона" class="title__top__wrapper__right__form__list__item__input">
+                                </label>
+                                <button type="submit" class="title__top__wrapper__right__form__submit btn">Отправить</button>
                                 <span class="title__top__wrapper__right__form__span">
                                     Нажимая на кнопку «Заказать звонок», вы даёте согласие на обработку своих персональных данных
                                 </span>
@@ -374,7 +376,7 @@
                         <div class="warranty__right__wrapper">
                             <div class="warranty__right__container">
                                 <span class="warranty__container__desc">Используем проверенную временем схему работы с разбивкой на этапы</span>
-                                <a href="" class="warranty__btn btn">Смотреть →</a>
+                                <a href="#table-popup" data-fancybox class="warranty__btn btn">Смотреть →</a>
                             </div>
                             <span class="warranty__text">
                                 17 лет практического опыта, команда из лучших профессионалов отрасли, скрупулёзное планирование работ и чёткое следование рабочей документации позволяют гарантировать каждому заказчику максимально-высокое качество проведённых работ
@@ -475,8 +477,12 @@
                         </p>
                     </div>
                     <form action="" class="contact-form__form">
-                        <input type="text" placeholder="Вашу имя" class="contact-form__input">
-                        <input type="text" placeholder="Ваш номер телефона*" class="contact-form__input">
+                        <label for="" class="title__top__wrapper__right__form__list__item__input-wrap">
+                            <input type="text" name="name" placeholder="Вашe имя" class="contact-form__input">
+                        </label>
+                        <label for="" class="title__top__wrapper__right__form__list__item__input-wrap">
+                            <input type="text" name="phone" data-required placeholder="Ваш номер телефона*" class="contact-form__input">
+                        </label>
                         <textarea placeholder="Текст сообщения" name="" id="" class="contact-form__area"></textarea>
                         <label class="contact-form__file__label">
                             <input type="file" class="contact-form__file">
@@ -737,9 +743,13 @@
                             <br><br> <b>Оставьте заявку прямо сейчас и получите консультацию.</b>                           
                         </span>
                         <form action="" class="find-form">
-                            <input type="text" placeholder="Вашу имя" class="contact-form__input">
-                            <input type="text" placeholder="Ваш номер телефона*" class="contact-form__input">
-                            <textarea placeholder="Текст сообщения" name="" id="" class="contact-form__area"></textarea>
+                            <label for="" class="title__top__wrapper__right__form__list__item__input-wrap">
+                                <input type="text" name="name" placeholder="Вашу имя" class="contact-form__input">
+                            </label>
+                            <label for="" class="title__top__wrapper__right__form__list__item__input-wrap">
+                                <input type="text" name="phone" data-required placeholder="Ваш номер телефона*" class="contact-form__input">
+                            </label>
+                            <textarea placeholder="Текст сообщения" name="comment" id="" class="contact-form__area"></textarea>
                             <label class="contact-form__file__label">
                                 <input type="file" class="contact-form__file">
                                 <img src="assets/img/file..svg" alt="">
@@ -811,9 +821,13 @@
                 <form action="" class="popup__form">
                     <span class="popup__form__header">Оставить заявку</span>
                     <span class="popup__form__desc">Напишите свои контактные данные и мы с Вами свяжемся в ближайшее время</span>
-                    <input type="text" placeholder="Ваше имя" class="popup__form__input">
-                    <input type="phone" placeholder="Ваш номер телефона*" class="popup__form__input">
-                    <button class="popup__form__btn btn">Отправить</button>
+                    <label for="" class="title__top__wrapper__right__form__list__item__input-wrap">
+                        <input type="text" name="name" placeholder="Ваше имя" class="popup__form__input">
+                    </label>
+                    <label for="" class="title__top__wrapper__right__form__list__item__input-wrap">
+                        <input type="text" name="phone" data-required placeholder="Ваш номер телефона*" class="popup__form__input">
+                    </label>
+                    <button type="submit" class="popup__form__btn btn">Отправить</button>
                     <span class="popup__form__policy">
                         Нажимая на кнопку «Заказать звонок», вы даёте согласие на
                         <a href="">обработку своих персональных данных</a>
@@ -828,9 +842,13 @@
                 <form action="" class="popup__form">
                     <span class="popup__form__header">Заказать звонок</span>
                     <span class="popup__form__desc">Перезвоним Вам в течение пары минут</span>
-                    <input type="text" placeholder="Ваше имя" class="popup__form__input">
-                    <input type="phone" placeholder="Ваш номер телефона*" class="popup__form__input">
-                    <button class="popup__form__btn btn">Отправить</button>
+                    <label for="" class="title__top__wrapper__right__form__list__item__input-wrap">
+                        <input type="text" name="name" placeholder="Ваше имя" class="popup__form__input">
+                    </label>
+                    <label for="" class="title__top__wrapper__right__form__list__item__input-wrap">
+                        <input type="text" name="phone" data-required placeholder="Ваш номер телефона*" class="popup__form__input">
+                    </label>
+                    <button type="submit" class="popup__form__btn btn">Отправить</button>
                     <span class="popup__form__policy">
                         Нажимая на кнопку «Заказать звонок», вы даёте согласие на
                         <a href="">обработку своих персональных данных</a>
@@ -845,16 +863,22 @@
                 <form action="" class="popup__form">
                     <span class="popup__form__header">Получить консультацию</span>
                     <span class="popup__form__desc">Перезвоним Вам в течение пары минут</span>
-                    <input type="text" placeholder="Ваше имя" class="popup__form__input">
-                    <input type="phone" placeholder="Ваш номер телефона*" class="popup__form__input">
-                    <textarea placeholder="Текст сообщения" name="comment" id="" class="popup__form__input"></textarea>
+                    <label for="" class="title__top__wrapper__right__form__list__item__input-wrap">
+                        <input type="text" name="name" placeholder="Ваше имя" class="popup__form__input">
+                    </label>
+                    <label for="" class="title__top__wrapper__right__form__list__item__input-wrap">
+                        <input type="text" name="phone" data-required placeholder="Ваш номер телефона*" class="popup__form__input">
+                    </label>
+                    <label for="" class="title__top__wrapper__right__form__list__item__input-wrap">
+                        <textarea placeholder="Текст сообщения" name="comment" id="" class="popup__form__input"></textarea>
+                    </label>
                     <label class="contact-form__file__label">
                         <input type="file" class="contact-form__file">
                         <img src="assets/img/file..svg" alt="">
                         <img class="file-added" src="assets/img/file-added..svg" alt="">
                         <span>Прикепить файл</span>
                     </label>
-                    <button class="popup__form__btn btn">Отправить</button>
+                    <button type="submit" class="popup__form__btn btn">Отправить</button>
                     <span class="popup__form__policy">
                         Нажимая на кнопку «Заказать звонок», вы даёте согласие на
                         <a href="">обработку своих персональных данных</a>
@@ -869,16 +893,22 @@
                 <form action="" class="popup__form">
                     <span class="popup__form__header">Расчитать стоимость</span>
                     <span class="popup__form__desc">Специалисты компании подготовят индивидуальное коммерческое предложение и ответят на интересующие вас вопросы</span>
-                    <input type="text" placeholder="Ваше имя" class="popup__form__input">
-                    <input type="phone" placeholder="Ваш номер телефона*" class="popup__form__input">
-                    <textarea placeholder="Текст сообщения" name="comment" id="" class="popup__form__input"></textarea>
+                    <label for="" class="title__top__wrapper__right__form__list__item__input-wrap">
+                        <input type="text" name="name" placeholder="Ваше имя" class="popup__form__input">
+                    </label>
+                    <label for="" class="title__top__wrapper__right__form__list__item__input-wrap">
+                        <input data-required="" type="text" name="phone" placeholder="Ваш номер телефона*" class="popup__form__input">
+                    </label>
+                    <label for="" class="title__top__wrapper__right__form__list__item__input-wrap">
+                        <textarea placeholder="Текст сообщения" name="comment" id="" class="popup__form__input"></textarea>
+                    </label>
                     <label class="contact-form__file__label">
                         <input type="file" class="contact-form__file">
                         <img class="file-added" src="assets/img/file-added..svg" alt="">
                         <img src="assets/img/file..svg" alt="">
                         <span>Прикепить файл</span>
                     </label>
-                    <button class="popup__form__btn btn">Отправить</button>
+                    <button type="submit" class="popup__form__btn btn">Отправить</button>
                     <span class="popup__form__policy">
                         Нажимая на кнопку «Заказать звонок», вы даёте согласие на
                         <a href="">обработку своих персональных данных</a>
@@ -897,6 +927,10 @@
             </div>
         </div>
     </div>
+    <div id="table-popup">
+        <img src="assets/img/table..jpg" alt="">
+    </div>
+    
 
 </body>
 

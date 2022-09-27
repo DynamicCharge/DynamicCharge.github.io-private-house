@@ -346,6 +346,7 @@ body.compensate-for-scrollbar{overflow:hidden}.fancybox-active{height:auto}.fanc
 /*!******************************************************************************************************************!*\
   !*** css ../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./assets/scss/main.scss ***!
   \******************************************************************************************************************/
+@charset "UTF-8";
 @font-face {
   font-family: 'Montserrat';
   src: url(../../assets/img/Montserrat-light..ttf);
@@ -1012,6 +1013,7 @@ table {
     align-items: flex-start;
     flex-direction: column; }
   .title .title__top__wrapper__header {
+    min-height: 106px;
     font-weight: 700;
     font-size: 38px;
     line-height: 140%;
@@ -1019,6 +1021,7 @@ table {
     color: #FFFFFF;
     margin-bottom: 15px; }
   .title .title__top__wrapper__desc {
+    min-height: 128px;
     font-weight: 400;
     font-size: 16px;
     line-height: 160%;
@@ -1438,6 +1441,35 @@ table {
     align-items: flex-start;
     flex-wrap: wrap; }
 
+.title__top__wrapper__right__form__list__item__input-wrap {
+  display: block;
+  max-width: 333px;
+  width: 100%;
+  margin-bottom: 10px;
+  flex-shrink: 0; }
+  .title__top__wrapper__right__form__list__item__input-wrap:not(:first-child) {
+    margin-left: auto; }
+  .title__top__wrapper__right__form__list__item__input-wrap._error {
+    position: relative; }
+    .title__top__wrapper__right__form__list__item__input-wrap._error::after {
+      content: 'Заполните это поле';
+      box-sizing: border-box;
+      padding: 2px 15px;
+      width: 100%;
+      display: block;
+      background-color: #C51C1C;
+      font-weight: 500;
+      font-size: 10px;
+      line-height: 12px;
+      color: #fff;
+      border-radius: 10px 10px 0 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      transition: .3s; }
+    .title__top__wrapper__right__form__list__item__input-wrap._error input {
+      border: 1px solid #C51C1C; }
+
 .contact-form__input {
   background: #FFFFFF;
   border: 1px solid #CFCFCF;
@@ -1448,11 +1480,8 @@ table {
   line-height: 21px;
   /* identical to box height */
   color: #141F33;
-  margin-bottom: 10px;
-  max-width: 290px;
-  width: 100%; }
-  .contact-form__input:not(:first-child) {
-    margin-left: auto; }
+  width: 100%;
+  box-sizing: border-box; }
 
 .contact-form__area {
   background: #FFFFFF;
@@ -1743,8 +1772,8 @@ table {
     justify-content: start;
     align-items: flex-start;
     flex-wrap: wrap; }
-  .find .contact-form__input {
-    max-width: 287px; }
+  .find .title__top__wrapper__right__form__list__item__input-wrap {
+    max-width: 320px; }
   .find .contact-form__input:first-child {
     margin-right: 0px; }
   .find .contact-form__area {
@@ -1862,6 +1891,13 @@ table {
     text-transform: uppercase;
     color: #141F33; }
 
+#table-popup {
+  display: none;
+  border-radius: 20px; }
+  #table-popup img {
+    display: block;
+    width: 100%; }
+
 .popup {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
@@ -1904,6 +1940,9 @@ table {
     /* or 19px */
     text-align: center;
     color: #141F33; }
+  .popup .title__top__wrapper__right__form__list__item__input-wrap {
+    margin-bottom: 0;
+    max-width: 100%; }
   .popup .popup__form__input {
     padding: 17px 15px;
     border: 1px solid #CFCFCF;
@@ -1913,7 +1952,8 @@ table {
     font-size: 17px;
     line-height: 21px;
     color: #141F33;
-    box-sizing: border-box; }
+    box-sizing: border-box;
+    width: 100%; }
   .popup textarea {
     resize: none;
     height: 165px; }
@@ -1955,9 +1995,9 @@ table {
 @media screen and (max-width: 1250px) {
   .container {
     padding: 0 20px; }
-  .contact-form__input {
+  .title__top__wrapper__right__form__list__item__input-wrap {
     max-width: 100%; }
-  .find .contact-form__input {
+  .find .title__top__wrapper__right__form__list__item__input-wrap {
     max-width: 100%; }
   .contact-form__btn-container {
     max-width: 370px; } }
@@ -2244,7 +2284,8 @@ table {
     font-weight: 700;
     font-size: 24px;
     line-height: 130%;
-    margin-bottom: 15px; }
+    margin-bottom: 15px;
+    min-height: 62px; }
   .title .title__top__wrapper__desc {
     font-weight: 400;
     font-size: 12px;
@@ -2262,7 +2303,7 @@ table {
   .title {
     padding-bottom: 368px;
     position: relative;
-    margin-bottom: 294px; }
+    margin-bottom: 245px; }
   .warranty .warranty__right {
     padding-bottom: 0; }
   .warranty .warranty__right__container {
