@@ -13,16 +13,17 @@
 <script defer="defer" src="./assets/scripts/main.js"></script><link href="./assets/styles/main..css" rel="stylesheet"></head>
 <body>
     <header class="header">
+    <div class="header__nav__overlay"></div>
             <div class="header__wrapper">
                 <div class="container">
                     <a href="#" class="logo"><img src="assets/img/logo..png" alt=""></a>
                     <div class="header__wrap">
                         <div class="header__call-wrap">
                             <a href="#" class="header__phone">+7 (499) 290-50-95</a>
-                            <a href="#" class="header__link">Заказать звонок</a>
+                            <a href="#call" data-fancybox="" class="header__link">Заказать звонок</a>
                         </div>
                         <a href="" class="header__social-link"><img src="assets/img/whatsapp..png" alt=""></a>
-                        <button class="header__order btn">Отправить заявку</button>
+                        <a href="#request" data-fancybox="" class="header__order btn">Отправить заявку</a>
                         <div class="burger">
                             <div class="burger__item"></div>
                         </div>
@@ -31,51 +32,52 @@
             </div>
             <nav class="header__nav">
                 <div class="container">
+                    <button class="header__nav__close-mobile"></button>
                     <ul class="header__nav__list">
                         <li class="header__nav__list__item _dropdown">
-                            <a href="">Услуги</a>
+                            <a class="_dropdown__header" href="">Услуги</a>
                             <ul class="header__nav__list__item__list">
-                                <li class="header__nav__list__item__list__item"><a href="">Отопление</a></li>
-                                <li class="header__nav__list__item__list__item"><a href="">Ремонт и отделка</a></li>
-                                <li class="header__nav__list__item__list__item"><a href="">Электрика</a></li>
-                                <li class="header__nav__list__item__list__item"><a href="">Вентиляция</a></li>
-                                <li class="header__nav__list__item__list__item"><a href="">Кондиционирование</a></li>
-                                <li class="header__nav__list__item__list__item"><a href="">Водоснабжение</a></li>
-                                <li class="header__nav__list__item__list__item"><a href="">Канализация и водотведение</a></li>
-                                <li class="header__nav__list__item__list__item"><a href="">Умный дом</a></li>
-                                <li class="header__nav__list__item__list__item"><a href="">Инженерные системы</a></li>
-                                <li class="header__nav__list__item__list__item"><a href="">Отделочная доска</a></li>
+                                <li class="header__nav__list__item__list__item"><a class="header__nav__list__item__link_drop" href="">Отопление</a></li>
+                                <li class="header__nav__list__item__list__item"><a class="header__nav__list__item__link_drop" href="">Ремонт и отделка</a></li>
+                                <li class="header__nav__list__item__list__item"><a class="header__nav__list__item__link_drop" href="">Электрика</a></li>
+                                <li class="header__nav__list__item__list__item"><a class="header__nav__list__item__link_drop" href="">Вентиляция</a></li>
+                                <li class="header__nav__list__item__list__item"><a class="header__nav__list__item__link_drop" href="">Кондиционирование</a></li>
+                                <li class="header__nav__list__item__list__item"><a class="header__nav__list__item__link_drop" href="">Водоснабжение</a></li>
+                                <li class="header__nav__list__item__list__item"><a class="header__nav__list__item__link_drop" href="">Канализация и водотведение</a></li>
+                                <li class="header__nav__list__item__list__item"><a class="header__nav__list__item__link_drop" href="">Умный дом</a></li>
+                                <li class="header__nav__list__item__list__item"><a class="header__nav__list__item__link_drop" href="">Инженерные системы</a></li>
+                                <li class="header__nav__list__item__list__item"><a class="header__nav__list__item__link_drop" href="">Отделочная доска</a></li>
                                 <li class="header__nav__list__item__list__item _dropdown">
-                                    <a href="">Другое</a>
+                                    <a class="_dropdown__header" href="">Другое</a>
                                     <ul class="header__nav__list__item__list">
-                                        <li class="header__nav__list__item__list__item"><a href="">Подбор оборудования</a></li>
-                                        <li class="header__nav__list__item__list__item"><a href="">Пусконаладка</a></li>
-                                        <li class="header__nav__list__item__list__item"><a href="">Техническое обслуживание</a></li>
-                                        <li class="header__nav__list__item__list__item"><a href="">Анализ смет и консультация</a></li>
-                                        <li class="header__nav__list__item__list__item"><a href="">Строительство элитных коттеджей</a></li>
+                                        <li class="header__nav__list__item__list__item"><a class="header__nav__list__item__link_drop" href="">Подбор оборудования</a></li>
+                                        <li class="header__nav__list__item__list__item"><a class="header__nav__list__item__link_drop" href="">Пусконаладка</a></li>
+                                        <li class="header__nav__list__item__list__item"><a class="header__nav__list__item__link_drop" href="">Техническое обслуживание</a></li>
+                                        <li class="header__nav__list__item__list__item"><a class="header__nav__list__item__link_drop" href="">Анализ смет и консультация</a></li>
+                                        <li class="header__nav__list__item__list__item"><a class="header__nav__list__item__link_drop" href="">Строительство элитных коттеджей</a></li>
                                     </ul>
                                 </li>
                             </ul>
                         </li>
-                        <li class="header__nav__list__item"><a href="">акции</a></li>
+                        <li class="header__nav__list__item"><a class="header__nav__list__item__link" href="">акции</a></li>
                         <li class="header__nav__list__item _dropdown">
-                            <a href="">Стоимость</a>
+                            <a class="_dropdown__header" href="">Стоимость</a>
                             <ul class="header__nav__list__item__list">
                                 <li class="header__nav__list__item__list__item"><a href="">Отопление</a></li>
                                 <li class="header__nav__list__item__list__item"><a href="">Отопление</a></li>
                                 <li class="header__nav__list__item__list__item"><a href="">Отопление</a></li>
                             </ul>
                         </li>
-                        <li class="header__nav__list__item _active"><a href="">портфолио</a></li>
+                        <li class="header__nav__list__item"><a class="header__nav__list__item__link" href="">портфолио</a></li>
                         <li class="header__nav__list__item _dropdown">
-                            <a href="">Компания</a>
+                            <a class="_dropdown__header" href="">Компания</a>
                             <ul class="header__nav__list__item__list">
                                 <li class="header__nav__list__item__list__item"><a href="">Отопление</a></li>
                                 <li class="header__nav__list__item__list__item"><a href="">Отопление</a></li>
                                 <li class="header__nav__list__item__list__item"><a href="">Отопление</a></li>
                             </ul>
                         </li>
-                        <li class="header__nav__list__item"><a href="">контакты</a></li>
+                        <li class="header__nav__list__item"><a class="header__nav__list__item__link" href="">контакты</a></li>
                     </ul>
                 </div>
             </nav>
@@ -112,7 +114,7 @@
             </div>
             <div class="title__slider__wrapper">
                 <div class="title__slider">
-                    <div class="title__slide _tab-active" data-header="Отопление в загородном доме" data-text="Предлагаем обустройство системы отопления под ключ с гарантией. Наши специалисты помогут в подборе отопительного оборудования, качественно и быстро выполнят монтаж, что наилучшим образом обеспечит комфорт и уют в загородном доме.">
+                    <div class="title__slide" data-header="Отопление в загородном доме" data-text="Предлагаем обустройство системы отопления под ключ с гарантией. Наши специалисты помогут в подборе отопительного оборудования, качественно и быстро выполнят монтаж, что наилучшим образом обеспечит комфорт и уют в загородном доме.">
                         <img src="assets/img/title-slider1..png" alt="" class="title__slide__img">
                         <div class="title__slide__overlay">
                             <span class="title__slide__name">Отопление</span>
@@ -479,6 +481,7 @@
                         <label class="contact-form__file__label">
                             <input type="file" class="contact-form__file">
                             <img src="assets/img/file..svg" alt="">
+                            <img class="file-added" src="assets/img/file-added..svg" alt="">
                             <span>Прикепить файл</span>
                         </label>
                         <div class="contact-form__btn-container">
@@ -740,6 +743,7 @@
                             <label class="contact-form__file__label">
                                 <input type="file" class="contact-form__file">
                                 <img src="assets/img/file..svg" alt="">
+                                <img class="file-added" src="assets/img/file-added..svg" alt="">
                                 <span>Прикепить файл</span>
                             </label>
                             <div class="contact-form__btn-container">
@@ -800,6 +804,100 @@
             </div>
         </div>
     </footer>
+
+    <div class="popup" id="request">
+        <div class="popup__wrapper">
+            <div class="popup__container">
+                <form action="" class="popup__form">
+                    <span class="popup__form__header">Оставить заявку</span>
+                    <span class="popup__form__desc">Напишите свои контактные данные и мы с Вами свяжемся в ближайшее время</span>
+                    <input type="text" placeholder="Ваше имя" class="popup__form__input">
+                    <input type="phone" placeholder="Ваш номер телефона*" class="popup__form__input">
+                    <button class="popup__form__btn btn">Отправить</button>
+                    <span class="popup__form__policy">
+                        Нажимая на кнопку «Заказать звонок», вы даёте согласие на
+                        <a href="">обработку своих персональных данных</a>
+                    </span>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="popup" id="call">
+        <div class="popup__wrapper">
+            <div class="popup__container">
+                <form action="" class="popup__form">
+                    <span class="popup__form__header">Заказать звонок</span>
+                    <span class="popup__form__desc">Перезвоним Вам в течение пары минут</span>
+                    <input type="text" placeholder="Ваше имя" class="popup__form__input">
+                    <input type="phone" placeholder="Ваш номер телефона*" class="popup__form__input">
+                    <button class="popup__form__btn btn">Отправить</button>
+                    <span class="popup__form__policy">
+                        Нажимая на кнопку «Заказать звонок», вы даёте согласие на
+                        <a href="">обработку своих персональных данных</a>
+                    </span>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="popup" id="consultation">
+        <div class="popup__wrapper">
+            <div class="popup__container">
+                <form action="" class="popup__form">
+                    <span class="popup__form__header">Получить консультацию</span>
+                    <span class="popup__form__desc">Перезвоним Вам в течение пары минут</span>
+                    <input type="text" placeholder="Ваше имя" class="popup__form__input">
+                    <input type="phone" placeholder="Ваш номер телефона*" class="popup__form__input">
+                    <textarea placeholder="Текст сообщения" name="comment" id="" class="popup__form__input"></textarea>
+                    <label class="contact-form__file__label">
+                        <input type="file" class="contact-form__file">
+                        <img src="assets/img/file..svg" alt="">
+                        <img class="file-added" src="assets/img/file-added..svg" alt="">
+                        <span>Прикепить файл</span>
+                    </label>
+                    <button class="popup__form__btn btn">Отправить</button>
+                    <span class="popup__form__policy">
+                        Нажимая на кнопку «Заказать звонок», вы даёте согласие на
+                        <a href="">обработку своих персональных данных</a>
+                    </span>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="popup" id="cost">
+        <div class="popup__wrapper">
+            <div class="popup__container">
+                <form action="" class="popup__form">
+                    <span class="popup__form__header">Расчитать стоимость</span>
+                    <span class="popup__form__desc">Специалисты компании подготовят индивидуальное коммерческое предложение и ответят на интересующие вас вопросы</span>
+                    <input type="text" placeholder="Ваше имя" class="popup__form__input">
+                    <input type="phone" placeholder="Ваш номер телефона*" class="popup__form__input">
+                    <textarea placeholder="Текст сообщения" name="comment" id="" class="popup__form__input"></textarea>
+                    <label class="contact-form__file__label">
+                        <input type="file" class="contact-form__file">
+                        <img class="file-added" src="assets/img/file-added..svg" alt="">
+                        <img src="assets/img/file..svg" alt="">
+                        <span>Прикепить файл</span>
+                    </label>
+                    <button class="popup__form__btn btn">Отправить</button>
+                    <span class="popup__form__policy">
+                        Нажимая на кнопку «Заказать звонок», вы даёте согласие на
+                        <a href="">обработку своих персональных данных</a>
+                    </span>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="success">
+        <div class="popup__wrapper">
+            <div class="popup__container _success">
+                <img src="assets/img/success..png" alt="" class="success__img">
+                <span class="success__span">Спасибо, ваша заявка принята!</span>
+                <span class="success__desc">Мы свяжемся с вами в ближайшее время</span>
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>
