@@ -998,11 +998,29 @@ table {
   position: relative;
   padding: 121px 0 202px;
   box-sizing: border-box;
-  background-image: url(../../assets/img/title-bg..jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 186px; }
+  .title .title__img-slider__wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 4; }
+  .title .title__img-slide {
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-height: 726px; }
+    .title .title__img-slide img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+  .title .title__top {
+    position: relative;
+    z-index: 5; }
   .title .title__top__wrapper {
     display: grid;
     grid-template-columns: 4fr 2fr;
@@ -1111,7 +1129,8 @@ table {
     width: 100%;
     position: absolute;
     bottom: -110px;
-    right: 0; }
+    right: 0;
+    z-index: 5; }
   .title .title__slider {
     background: #fff;
     padding: 20px 0 20px 10px;
@@ -1620,6 +1639,20 @@ table {
 
 .portfolio {
   padding-bottom: 77px; }
+  .portfolio .portfolio__slider__controll {
+    background: transparent;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 50%;
+    right: 102%;
+    transform: translateY(-50%);
+    z-index: 10;
+    cursor: pointer; }
+    .portfolio .portfolio__slider__controll.portfolio-next {
+      left: 102%;
+      right: unset;
+      transform: translateY(-50%) scale(-1); }
   .portfolio .portfolio__header {
     margin: 0 auto;
     max-width: 640px;
@@ -1942,7 +1975,9 @@ table {
 
 #table-popup {
   display: none;
-  border-radius: 20px; }
+  border-radius: 20px;
+  max-width: 1047px;
+  width: 100%; }
   #table-popup img {
     display: block;
     width: 100%; }
@@ -2052,6 +2087,8 @@ table {
     max-width: 370px; } }
 
 @media screen and (max-width: 835px) {
+  .title .title__img-slide {
+    height: 780px; }
   .footer .footer__social._mob {
     display: block; }
   .header .header__nav__list__item__list__item._dropdown .header__nav__list__item__list {
@@ -2346,7 +2383,7 @@ table {
     margin-top: 57px; }
   .title .title__top__wrapper__right {
     position: absolute;
-    bottom: -220px;
+    bottom: -605px;
     left: 50%;
     transform: translateX(-50%);
     width: max-content; }
