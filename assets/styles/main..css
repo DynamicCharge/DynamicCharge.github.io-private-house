@@ -1492,7 +1492,8 @@ table {
     display: flex;
     justify-content: start;
     align-items: flex-start;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    overflow: hidden; }
 
 .title__top__wrapper__right__form__list__item__input-wrap {
   display: block;
@@ -2098,6 +2099,10 @@ table {
     max-width: 370px; } }
 
 @media screen and (max-width: 835px) {
+  .footer .footer__phone-wrap {
+    align-items: center; }
+  .warranty__btn:hover {
+    background: #C51C1C; }
   .title .title__img-slide {
     height: 780px; }
   .footer .footer__social._mob {
