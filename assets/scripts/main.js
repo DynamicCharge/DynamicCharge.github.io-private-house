@@ -18,11 +18,11 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___HTML_LOADER_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/img/logo.svg */ "./assets/img/logo.svg"), __webpack_require__.b);
 var ___HTML_LOADER_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/img/whatsapp.png */ "./assets/img/whatsapp.png"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/img/title-bg.jpg */ "./assets/img/title-bg.jpg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/img/title_bg.png */ "./assets/img/title_bg.png"), __webpack_require__.b);
 var ___HTML_LOADER_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/img/title-bg2.jpg */ "./assets/img/title-bg2.jpg"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_4___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/img/title-bg3.jpg */ "./assets/img/title-bg3.jpg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_4___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/img/title-bg3.png */ "./assets/img/title-bg3.png"), __webpack_require__.b);
 var ___HTML_LOADER_IMPORT_5___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/img/title-bg4.jpg */ "./assets/img/title-bg4.jpg"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_6___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/img/title-bg5.jpg */ "./assets/img/title-bg5.jpg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_6___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/img/title-bg5.png */ "./assets/img/title-bg5.png"), __webpack_require__.b);
 var ___HTML_LOADER_IMPORT_7___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/img/title-bg6.jpg */ "./assets/img/title-bg6.jpg"), __webpack_require__.b);
 var ___HTML_LOADER_IMPORT_8___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/img/title-slider1.png */ "./assets/img/title-slider1.png"), __webpack_require__.b);
 var ___HTML_LOADER_IMPORT_9___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/img/title-slider2.png */ "./assets/img/title-slider2.png"), __webpack_require__.b);
@@ -11790,17 +11790,6 @@ module.exports = __webpack_require__.p + "assets/img/table..jpg";
 
 /***/ }),
 
-/***/ "./assets/img/title-bg.jpg":
-/*!*********************************!*\
-  !*** ./assets/img/title-bg.jpg ***!
-  \*********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "assets/img/title-bg..jpg";
-
-/***/ }),
-
 /***/ "./assets/img/title-bg2.jpg":
 /*!**********************************!*\
   !*** ./assets/img/title-bg2.jpg ***!
@@ -11812,14 +11801,14 @@ module.exports = __webpack_require__.p + "assets/img/title-bg2..jpg";
 
 /***/ }),
 
-/***/ "./assets/img/title-bg3.jpg":
+/***/ "./assets/img/title-bg3.png":
 /*!**********************************!*\
-  !*** ./assets/img/title-bg3.jpg ***!
+  !*** ./assets/img/title-bg3.png ***!
   \**********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "assets/img/title-bg3..jpg";
+module.exports = __webpack_require__.p + "assets/img/title-bg3..png";
 
 /***/ }),
 
@@ -11834,14 +11823,14 @@ module.exports = __webpack_require__.p + "assets/img/title-bg4..jpg";
 
 /***/ }),
 
-/***/ "./assets/img/title-bg5.jpg":
+/***/ "./assets/img/title-bg5.png":
 /*!**********************************!*\
-  !*** ./assets/img/title-bg5.jpg ***!
+  !*** ./assets/img/title-bg5.png ***!
   \**********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "assets/img/title-bg5..jpg";
+module.exports = __webpack_require__.p + "assets/img/title-bg5..png";
 
 /***/ }),
 
@@ -11919,6 +11908,17 @@ module.exports = __webpack_require__.p + "assets/img/title-slider5..png";
 
 "use strict";
 module.exports = __webpack_require__.p + "assets/img/title-slider6..png";
+
+/***/ }),
+
+/***/ "./assets/img/title_bg.png":
+/*!*********************************!*\
+  !*** ./assets/img/title_bg.png ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "assets/img/title_bg..png";
 
 /***/ }),
 
