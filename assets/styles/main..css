@@ -1161,6 +1161,7 @@ table {
       display: block; }
   .title .title__slide__img {
     width: 100%;
+    height: 100%;
     object-fit: cover; }
   .title .title__slide__overlay {
     position: absolute;
