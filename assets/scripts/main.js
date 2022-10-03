@@ -12489,7 +12489,7 @@ $(document).ready(function () {
         $(this).parent().addClass('_active');
         $(this).parent().children('span').text('Файл прикреплен');
     });
-    $('[name=phone]').mask("+7 (999) 999-9999");
+    $('[name=phone]').mask("+7 (999) 999 9999", {placeholder: "" });
     $('[data-required]').focus(function(){
         $(this).removeClass('_error').parent().removeClass('_error');
     });
