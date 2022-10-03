@@ -1525,6 +1525,7 @@ table {
       border: 1px solid #C51C1C; }
 
 .contact-form__input {
+  outline: none !important;
   background: #FFFFFF;
   border: 1px solid #CFCFCF;
   border-radius: 10px;
@@ -1845,6 +1846,8 @@ table {
     flex-wrap: wrap; }
   .find .title__top__wrapper__right__form__list__item__input-wrap {
     max-width: 320px; }
+  .find .contact-form__input {
+    outline: none !important; }
   .find .contact-form__input:first-child {
     margin-right: 0px; }
   .find .contact-form__area {
