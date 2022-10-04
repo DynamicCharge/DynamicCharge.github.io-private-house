@@ -948,7 +948,7 @@ table {
     display: none;
     position: absolute;
     top: 45px;
-    left: 0;
+    left: -30px;
     padding: 20px 20px;
     box-sizing: border-box;
     background-color: #fff;
@@ -961,7 +961,7 @@ table {
     font-size: 15px;
     line-height: 160%;
     /* identical to box height, or 24px */
-    text-align: center;
+    text-align: left;
     color: #000000;
     text-transform: none; }
   .header .header__nav__list__item__list__item:not(:last-child) {
@@ -1149,7 +1149,8 @@ table {
     border-radius: 10px;
     overflow: hidden;
     max-width: 290px;
-    width: 100%; }
+    width: 100%;
+    outline: none !important; }
     .title .title__slide._tab-active::after {
       content: '';
       width: 100%;
@@ -1218,7 +1219,8 @@ table {
     height: 41px;
     width: 100px;
     position: relative;
-    margin: 15.5px 0; }
+    margin: 15.5px 0;
+    outline: none !important; }
     .advantages .advantages__slide .val {
       position: absolute;
       top: 0;
@@ -1229,14 +1231,16 @@ table {
       line-height: 140%;
       /* or 39px */
       text-align: center;
-      color: #CFCFCF; }
+      color: #CFCFCF;
+      outline: none !important; }
     .advantages .advantages__slide.slick-current.slick-active .val {
       top: -50%;
       font-weight: 700;
       font-size: 72px;
       line-height: 140%;
       color: #C51C1C;
-      margin: 0; }
+      margin: 0;
+      outline: none !important; }
   .advantages .advantages__tab__container {
     display: grid;
     grid-template-columns: 1fr 1fr;

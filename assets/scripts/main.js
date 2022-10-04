@@ -12272,8 +12272,8 @@ $(document).ready(function () {
     slidesToScroll: 1,
     variableWidth: true,
     infinite: true,
-    autoplay: true,
-    autoplaySpeed: 3000,
+    autoplay: false,
+    // autoplaySpeed: 4000,
     arrows: false,
     focusOnSelect: true,
 
